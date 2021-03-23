@@ -11,8 +11,8 @@ import UIKit
 
 @IBDesignable open class BetterSegmentedControl: UIControl {
     private struct Constants {
-        static let minimumIntrinsicContentSizeHeight: CGFloat = 32.0
-        static let minimumSegmentIntrinsicContentSizeWidth: CGFloat = 20.0
+        static let minimumIntrinsicContentSizeHeight: CGFloat = 0
+        static let minimumSegmentIntrinsicContentSizeWidth: CGFloat = 0
     }
     
     // MARK: Properties
